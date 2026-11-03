@@ -1,7 +1,6 @@
 MONTHLY_INCOME = 2000.00
-RENT = 600
-DAYS_IN_MONTH = 30
-
+RENT = 600.00
+DAYS_IN_MONTH = 28
 
 def remaining_after_rent(income: float, rent: float) -> float:
     return income - rent
